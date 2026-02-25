@@ -1,0 +1,41 @@
+# Commander's Coat and Bulletproof Commander's Coat
+startingConditions:
+  - update: STR_STAKEOUT_GEAR
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+    allowedArmors: !add
+      - STR_COMMANDER_COAT_UC
+      - STR_BULLETPROOF_COMMANDER_COAT_UC
+
+  - update: STR_INFILTRATION_GEAR_INFILTRATION_CARS_OSIRON
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+  - update: STR_INFILTRATION_GEAR_INFILTRATION_CARS
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+    allowedArmors: !add
+      - STR_COMMANDER_COAT_UC
+      - STR_BULLETPROOF_COMMANDER_COAT_UC
+
+  - update: STR_BEACH_GEAR
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+  - update: STR_LABOR_GEAR
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+  - update: STR_WINTERSPORTS_GEAR
+    allowedCraft: !add
+      - STR_MOTORCYCLE
+      - STR_SUV
+
+  - update: STR_INFILTRATION_GEAR
+    allowedArmors: !add
+      - STR_COMMANDER_COAT_UC
+      - STR_BULLETPROOF_COMMANDER_COAT_UC
+
+

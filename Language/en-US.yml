@@ -1,0 +1,113 @@
+en-US:
+  GMINTER101 : "Deja Vu"
+
+  STR_PSI_SHIELDS: "Psionic Shields"
+  STR_PSI_SHIELDS_TEXT: "We know that psionic abilities offer a wide range of applications, from enhancing perception to energy manipulation. The last subject of laboratory research, for instance, used their psionic strenght to create a psionic shield - a mental construct serving as a protective barrier. To better understand and classify these phenomena, we have developed a preliminary resistance scale in order to offer us a way to counter-measure and subdue the individuals most effectively.{NEWLINE}{NEWLINE}Here is a list of the key words used and their corresponding damage modifier:{NEWLINE}  > BEST - 33%{NEWLINE}  > GOOD - 50%{NEWLINE}  > DECENT - 66%{NEWLINE}  > POOR - 125%{NEWLINE}  > Terrible - 175%"
+
+  STR_MEDAL_SOLO_MISSIONS_NAME: "Solitary"
+  STR_MEDAL_SOLO_MISSIONS_UFOPEDIA: "Agents who do things on their own without needing any assistance act swift and cool. {NEWLINE}Each odd level increases Stamina and Sanity by +1. {NEWLINE}Each even level increases TUs and Health by +1. {NEWLINE}Additional +10 Bravery is awarded on level 5 and +2 Psi Strength on level 10." 
+  STR_MEDAL_SOLO_MISSIONS_1: "Solitary I"
+  STR_MEDAL_SOLO_MISSIONS_2: "Solitary II"
+  STR_MEDAL_SOLO_MISSIONS_3: "Solitary III"
+  STR_MEDAL_SOLO_MISSIONS_4: "Solitary IV"
+  STR_MEDAL_SOLO_MISSIONS_5: "Solitary V"
+  STR_MEDAL_SOLO_MISSIONS_6: "Solitary VI"
+  STR_MEDAL_SOLO_MISSIONS_7: "Solitary VII"
+  STR_MEDAL_SOLO_MISSIONS_8: "Solitary VIII"
+  STR_MEDAL_SOLO_MISSIONS_9: "Solitary IX"
+  STR_MEDAL_SOLO_MISSIONS_10: "Solitary X"
+  STR_MEDAL_SOLITARY_NAME: "Solitary"
+
+  STR_MEDAL_GRAVEKEEPER_NAME: "Gravekeeper"
+  STR_MEDAL_GRAVEKEEPER_UFOPEDIA: "Let the dead rest. This commendation is awarded to soldiers who vanquish undead dwellers and grant peace to the bodies of their victims.{NEWLINE}Each odd level increases Sanity by +1. {NEWLINE}Each even level increases Stamina by +1." 
+  STR_MEDAL_GRAVEKEEPER_1: "Gravekeeper I"
+  STR_MEDAL_GRAVEKEEPER_2: "Gravekeeper II"
+  STR_MEDAL_GRAVEKEEPER_3: "Gravekeeper III"
+  STR_MEDAL_GRAVEKEEPER_4: "Gravekeeper IV"
+  STR_MEDAL_GRAVEKEEPER_5: "Gravekeeper V"
+  STR_MEDAL_GRAVEKEEPER_6: "Gravekeeper VI"
+  STR_MEDAL_GRAVEKEEPER_7: "Gravekeeper VII"
+  STR_MEDAL_GRAVEKEEPER_8: "Gravekeeper VIII"
+  STR_MEDAL_GRAVEKEEPER_9: "Gravekeeper IX"
+  STR_MEDAL_GRAVEKEEPER_10: "Gravekeeper X"
+
+  STR_SUV: "PRIVATE/SUV"
+  STR_SUV_NAME: "SUV"
+  STR_TEXT_SUV_PEDIA: "This SUV is more cosy and significantly faster than the casual van, but has higher running cost. Undetectable."
+
+  STR_MOTORCYCLE: "PRIVATE/MOTORCYCLE"
+  STR_MOTORCYCLE_UFOPEDIA: "If we must absolutely reach a place as fast as possible we can send single agents in motorcycles. Undetectable."
+##
+
+  STR_WANDERING_RAT_2: "A Fat Rat"
+  STR_WANDERING_RAT_2_DESCRIPTION: "One of our pest traps near the base cought a humongous rat. The Quartermaster brought it to the office, asking what we should do with it."
+
+##
+  STR_CIVILIAN_SELF_DEFENCE: "Civilian Self Defense"
+  STR_CIVILIAN_SELF_DEFENCE_UFOPEDIA: "Our equipment might not always be the most space tolerant one. Some agents say that smaller yet effective weapons would be better. Well, it's not always possible to have both, but I managed to contact some civilian self defence weapon suppliers. {NEWLINE}Their stuff might not be the strongest, but is way less space demanding than our standard arsenal."
+
+  STR_PEPPER_SPRAY: "Pepper Spray"
+  STR_PEPPER_SPRAY_UFOPEDIA: "This spray is an adequate means of defense against aggressive dogs and aggressive unarmed civilians. It is generally not an adequate weapon against enemies of X-Com, but it may prove useful in close combat.{NEWLINE}Each attack decreases the target's TUs for this turn and causes some Stun damage. Max effective range is around 3 meters."
+
+  STR_CIV_TASER: "Hand Taser"
+  STR_CIV_TASER_UFOPEDIA: "This small weapon is mainly used in civilian self-defence or by police forces. Its non-lethal electric shock can be used to subdue aggressive individuals."
+
+  STR_STORM_MED: "Storm Medical Pack"
+  STR_STORM_MED_UFOPEDIA: "An experimental medical kit stocked with Storm-based clotting agents, Energetic Blood stimulants and modified Nobelon pills. Effective in emergencies, though long-term consequences remain questionable. Automatically refilled at base. In order to use it, you must face towards the operative requiring treatment. If the operative is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use' from the menu. Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored."
+
+  STR_FLASHLIGHT_UFOPEDIA: "A simple illuminating device. A bit less powerful than the Mag-Lite, but the difference in price is staggering. {NEWLINE}{NEWLINE}Warning: tends to break easily. Not waterproof. Not dustproof. Warranty does not cover military use."
+
+##
+  STR_COMMANDER_COAT_UC: "COMMANDER'S COAT"
+  STR_COMMANDER_COAT_INFERNAL_UC: "COMMANDER'S COAT (INF)"
+  STR_COMMANDER_COAT_SPARTAN_UC: "COMMANDER'S COAT (SPT)"
+  STR_COMMANDER_COAT_KYBEROS_UC: "COMMANDER'S COAT (KYB)"
+  STR_COMMANDER_COAT_OLYMPIAN_UC: "COMMANDER'S COAT (OLY)"
+  STR_COMMANDER_COAT_PROTEAN_UC: "COMMANDER'S COAT (PRO)"
+  STR_COMMANDER_COAT_H_UC: "COMMANDER'S COAT (H)"
+
+  STR_COMMANDER_COAT: "Commander's Coat"
+  STR_COMMANDER_COAT_UFOPEDIA: "Your old service coat. Tough, but comfortable. The agents handle it with honor and respect. They say that wearing it makes them somehow feel much more brave and strong."
+# event
+  STR_COMMANDER_COAT_MESSAGE: "Ol' Reliable"
+  STR_COMMANDER_COAT_MESSAGE_text: "While reading through the recent reports from the Quartermaster, you remembered your old service coat-the one you wore as a detective before the founding of X-Com. You decided to pass it on to your agents. The closet will manage without it. The coat's tough design, however, might save someone's life."
+
+##
+  STR_BULLETPROOF_COMMANDER_COAT_UC: "COMMANDER'S COAT"
+  STR_BULLETPROOF_COMMANDER_COAT_INFERNAL_UC: "COMMANDER'S COAT (INF)"
+  STR_BULLETPROOF_COMMANDER_COAT_SPARTAN_UC: "COMMANDER'S COAT (SPT)"
+  STR_BULLETPROOF_COMMANDER_COAT_KYBEROS_UC: "COMMANDER'S COAT (KYB)"
+  STR_BULLETPROOF_COMMANDER_COAT_OLYMPIAN_UC: "COMMANDER'S COAT (OLY)"
+  STR_BULLETPROOF_COMMANDER_COAT_PROTEAN_UC: "COMMANDER'S COAT (PRO)"
+  STR_BULLETPROOF_COMMANDER_COAT_H_UC: "COMMANDER'S COAT (H)"
+
+  STR_BULLETPROOF_COMMANDER_COAT: "Bulletproof Commander's Coat"
+  STR_BULLETPROOF_COMMANDER_COAT_UFOPEDIA: "Reinforced and enhanced with the newest covert-ops technology and yet keeping the old encouraging spirit."
+# research and event
+  STR_BULLETPROOF_COMMANDER_COAT_RESEARCH: "Bulletproof Upgrade"
+  STR_BULLETPROOF_COMMANDER_COAT_MESSAGE: "Old Spirit in New Shape"
+  STR_BULLETPROOF_COMMANDER_COAT_MESSAGE_text: "While checking through the latest research logs, the Chief Engineer wanted you to see something. The Quartermaster showed off his modelling skills with your old service coat, but something was different. They refitted it with the newest bulletproof technology from the labs. You tried it on. It was just like before, but you had some sort of an untouchable feeling from it. The staff did a great job."
+
+##
+  STR_SPEC_OPS_ARMOR_UC: "SPEC-OPS"
+  STR_SPEC_OPS_ARMOR_INFERNAL_UC: "SPEC-OPS (INF)"
+  STR_SPEC_OPS_ARMOR_SPARTAN_UC: "SPEC-OPS (SPT)"
+  STR_SPEC_OPS_ARMOR_KYBEROS_UC: "SPEC-OPS (KYB)"
+  STR_SPEC_OPS_ARMOR_OLYMPIAN_UC: "SPEC-OPS (OLY)"
+  STR_SPEC_OPS_ARMOR_PROTEAN_UC: "SPEC-OPS (PRO)"
+  STR_SPEC_OPS_ARMOR_H_UC: "SPEC-OPS (H)"
+# description
+  STR_SPEC_OPS_ARMOR_UFOPEDIA: "An enhanced and reinforced variant of our Night-Ops suit, designed for special operations. It features improved night vision and thermal sight, offering better camouflage and increased protection without significantly sacrificing mobility."
+# research and item
+  STR_SPEC_OPS_RESEARCH: "Spec-Ops Suit" 
+  STR_SPEC_OPS_ARMOR: "Spec-Ops Suit" 
+#
+  STR_CAMO_ENEMY_RESEARCHED: "Camouflaged Enemy Interrogated"
+  STR_ANY_CULT_OPERATIONS: "Any Cult Operations"
+  STR_OPTICS: "Optics"
+  STR_OPTICS_UFOPEDIA: "Careful examination of light has uncovered the principles governing reflection, refraction, and transmission. With this knowledge, we can intentionally control light paths using simple materials and arrangements, enabling early optical instruments and experimental setups. These foundations prepare us to move beyond observation and toward the precise engineering of sophisticated optical systems."
+
+#
+#
+#
+#

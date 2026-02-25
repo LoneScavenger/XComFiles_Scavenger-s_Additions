@@ -1,0 +1,123 @@
+# unit inventory update
+units:
+  - update: STR_MALE_CIVILIAN_CITY_BOY
+    builtInWeaponSets:
+      - []
+      - - STR_CIV_TASER
+      - - STR_BOOM_BOX
+      - - STR_PAINKILLER
+        - STR_SWITCHBLADE
+      - - STR_BASEBALL_BAT
+        - STR_PAINKILLER
+      - - STR_CIV_TASER
+      - []
+      - - STR_BOOM_BOX
+      - - STR_PAINKILLER
+      - - STR_GOLF_STICK
+        - STR_PAINKILLER
+
+  - update: STR_POLICEMAN
+    builtInWeaponSets:
+      - - STR_SNUBNOSE_PISTOL
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_MAKAROV
+        - STR_MAKAROV_CLIP
+        - STR_MAKAROV_CLIP
+        - STR_POLICE_ID
+        - STR_CIV_TASER
+      - - STR_BERETTA_92FS
+        - STR_BERETTA_92FS_CLIP
+        - STR_BERETTA_92FS_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_GLOCK_18
+        - STR_GLOCK_18_CLIP
+        - STR_GLOCK_18_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_COLT45
+        - STR_COLT45_CLIP
+        - STR_COLT45_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_SNUBNOSE_PISTOL
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_MAKAROV
+        - STR_MAKAROV_CLIP
+        - STR_MAKAROV_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_USP_MATCH
+        - STR_USP_9_MM_CLIP
+        - STR_USP_9_MM_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_GLOCK_18
+        - STR_GLOCK_18_CLIP
+        - STR_GLOCK_18_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_COLT45
+        - STR_COLT45_CLIP
+        - STR_COLT45_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+
+  - update: STR_POLICEWOMAN
+    builtInWeaponSets:
+      - - STR_SNUBNOSE_PISTOL
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_MAKAROV
+        - STR_MAKAROV_CLIP
+        - STR_MAKAROV_CLIP
+        - STR_POLICE_ID
+        - STR_CIV_TASER
+      - - STR_BERETTA_92FS
+        - STR_BERETTA_92FS_CLIP
+        - STR_BERETTA_92FS_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_GLOCK_18
+        - STR_GLOCK_18_CLIP
+        - STR_GLOCK_18_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_COLT45
+        - STR_COLT45_CLIP
+        - STR_COLT45_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_SNUBNOSE_PISTOL
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_SNUBNOSE_PISTOL_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_MAKAROV
+        - STR_MAKAROV_CLIP
+        - STR_MAKAROV_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_USP_MATCH
+        - STR_USP_9_MM_CLIP
+        - STR_USP_9_MM_CLIP
+        - STR_ELECTRIC_CLUB
+        - STR_POLICE_ID
+      - - STR_GLOCK_18
+        - STR_GLOCK_18_CLIP
+        - STR_GLOCK_18_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID
+      - - STR_COLT45
+        - STR_COLT45_CLIP
+        - STR_COLT45_CLIP
+        - STR_CIV_TASER
+        - STR_POLICE_ID

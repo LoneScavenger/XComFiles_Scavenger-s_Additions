@@ -1,0 +1,4 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      279: Resources/Weapon_Sounds/ElectroHit.wav

@@ -1,0 +1,4 @@
+facilities:
+  - type: STR_CORRIDOR
+    storage: 2
+    buildCost: 35000

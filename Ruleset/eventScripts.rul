@@ -1,0 +1,31 @@
+eventScripts:
+  - type: STR_MONSTER_EVENT_1
+    eventWeights:
+      0:
+        STR_SPIKEBOAR_SIGHTING: 100
+        STR_CHUPACABRA_GORE_PILE: 100
+        STR_RAT_INFESTATION: 100
+        STR_GIANT_BEETLE_MIGRATION: 100
+        STR_NIGHT_HOWLERS: 100
+        STR_SERPENTINE_NEST: 100
+        STR_WANDERING_RAT: 50
+        STR_WANDERING_RAT_2: 50
+    firstMonth: 0
+    executionOdds: 20
+    researchTriggers:
+      STR_SYNDICATE_TESTAMENT_ENCRYPTED: false
+  - type: STR_MONSTER_EVENT_2
+    eventWeights:
+      0:
+        STR_SPIKEBOAR_SIGHTING: 100
+        STR_CHUPACABRA_GORE_PILE: 100
+        STR_RAT_INFESTATION: 100
+        STR_GIANT_BEETLE_MIGRATION: 100
+        STR_NIGHT_HOWLERS: 100
+        STR_SERPENTINE_NEST: 100
+        STR_WANDERING_RAT: 100
+        STR_WANDERING_RAT_2: 100
+    firstMonth: 0
+    executionOdds: 15
+    researchTriggers:
+      STR_SYNDICATE_TESTAMENT_ENCRYPTED: false

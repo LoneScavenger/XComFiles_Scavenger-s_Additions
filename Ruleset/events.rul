@@ -1,0 +1,25 @@
+events:
+  - name: STR_COMMANDER_COAT_MESSAGE
+    description: STR_COMMANDER_COAT_MESSAGE_text
+    background: XCOM_PARANORMAL_ACTIVITY_UNIT_BACKGROUND.SCR
+    everyItemList: [STR_COMMANDER_COAT]
+    researchList: [STR_COMMANDER_COAT]
+    points: 10
+    timer: 100
+    timerRandom: 4000
+
+  - name: STR_BULLETPROOF_COMMANDER_COAT_MESSAGE
+    description: STR_BULLETPROOF_COMMANDER_COAT_MESSAGE_text
+    background: XCOM_PARANORMAL_ACTIVITY_UNIT_BACKGROUND.SCR
+    everyItemList: [STR_BULLETPROOF_COMMANDER_COAT]
+    researchList: [STR_BULLETPROOF_COMMANDER_COAT]
+    points: 10
+    timer: 100
+    timerRandom: 4000
+
+  - name: STR_WANDERING_RAT_2
+    description: STR_WANDERING_RAT_2_DESCRIPTION
+    background: NEW_RAT_BACKGROUND.SCR
+    everyItemList: [STR_GIANT_RAT_TERRORIST]
+    timer: 20
+    timerRandom: 43500

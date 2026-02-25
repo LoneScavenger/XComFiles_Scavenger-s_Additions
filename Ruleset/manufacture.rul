@@ -1,0 +1,14 @@
+manufacture:
+  - delete: STR_BLACKOPS_NIGHTVISION
+
+  - name: STR_SPEC_OPS_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_SPEC_OPS_RESEARCH #research
+    space: 12
+    time: 1800
+    cost: 35000
+    requiresBaseFunc: [WORKS]
+    requiredItems:
+      STR_DURATHREAD: 5
+    listOrder: 16789

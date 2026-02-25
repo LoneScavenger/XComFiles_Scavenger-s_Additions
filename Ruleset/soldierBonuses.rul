@@ -1,0 +1,106 @@
+﻿soldierBonuses:
+  - name: STR_MEDAL_SOLO_MISSIONS_1
+    stats:
+      stamina: 1
+      mana: 1
+  - name: STR_MEDAL_SOLO_MISSIONS_2
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      mana: 1
+  - name: STR_MEDAL_SOLO_MISSIONS_3
+    stats:
+      tu: 1
+      stamina: 2
+      health: 1
+      mana: 2
+  - name: STR_MEDAL_SOLO_MISSIONS_4
+    stats:
+      tu: 2
+      stamina: 2
+      health: 2
+      mana: 2
+  - name: STR_MEDAL_SOLO_MISSIONS_5
+    stats:
+      tu: 2
+      stamina: 3
+      health: 2
+      mana: 3
+      bravery: 10
+  - name: STR_MEDAL_SOLO_MISSIONS_6
+    stats:
+      tu: 3
+      stamina: 3
+      health: 3
+      mana: 3
+      bravery: 10
+  - name: STR_MEDAL_SOLO_MISSIONS_7
+    stats:
+      tu: 3
+      stamina: 4
+      health: 3
+      mana: 4
+      bravery: 10
+  - name: STR_MEDAL_SOLO_MISSIONS_8
+    stats:
+      tu: 4
+      stamina: 4
+      health: 4
+      mana: 4
+      bravery: 10
+  - name: STR_MEDAL_SOLO_MISSIONS_9
+    stats:
+      tu: 4
+      stamina: 5
+      health: 4
+      mana: 5
+      bravery: 10
+  - name: STR_MEDAL_SOLO_MISSIONS_10
+    stats:
+      tu: 5
+      stamina: 5
+      health: 5
+      mana: 5
+      bravery: 10
+      psiStrength: 2
+
+  - name: STR_MEDAL_GRAVEKEEPER_1
+    stats:
+      mana: 1
+  - name: STR_MEDAL_GRAVEKEEPER_2
+    stats:
+      stamina: 1
+      mana: 1
+  - name: STR_MEDAL_GRAVEKEEPER_3
+    stats:
+      stamina: 1
+      mana: 2
+  - name: STR_MEDAL_GRAVEKEEPER_4
+    stats:
+      stamina: 2
+      mana: 2
+  - name: STR_MEDAL_GRAVEKEEPER_5
+    stats:
+      stamina: 2
+      mana: 3
+  - name: STR_MEDAL_GRAVEKEEPER_6
+    stats:
+      stamina: 3
+      mana: 3
+  - name: STR_MEDAL_GRAVEKEEPER_7
+    stats:
+      stamina: 3
+      mana: 4
+  - name: STR_MEDAL_GRAVEKEEPER_8
+    stats:
+      stamina: 4
+      mana: 4
+  - name: STR_MEDAL_GRAVEKEEPER_9
+    stats:
+      stamina: 4
+      mana: 5
+  - name: STR_MEDAL_GRAVEKEEPER_10
+    stats:
+      stamina: 5
+      mana: 5

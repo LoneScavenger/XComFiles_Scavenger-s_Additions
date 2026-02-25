@@ -1,0 +1,239 @@
+research:
+# BEGIN Commander's Coat and Bulletproof Commander's Coat
+  - name: STR_PERSONAL_PROTECTION
+    spawnedEvent: STR_COMMANDER_COAT_MESSAGE
+
+  - name: STR_COMMANDER_COAT
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_TROLLIUM
+
+  - name: STR_BULLETPROOF_COMMANDER_COAT
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_TROLLIUM
+
+  - name: STR_BULLETPROOF_COMMANDER_COAT_RESEARCH
+    cost: 5
+    points: 10
+    neededItem: STR_COMMANDER_COAT
+    destroyItem: true
+    spawnedEvent: STR_BULLETPROOF_COMMANDER_COAT_MESSAGE
+    dependencies:
+      - STR_PERSONAL_PROTECTION
+#      - STR_BULLETPROOF_COAT_DESIGN
+      - STR_COMMANDER_COAT
+# END Commander's Coat and Bulletproof Commander's Coat
+
+# BEGIN Camouflaged Enemy Researched
+  - name: STR_CAMO_ENEMY_RESEARCHED
+    cost: 0
+    points: 0
+    unlocks:
+      - STR_JUMPSUIT
+    dependencies:
+      - STR_ZSRR_PIONEER_MALE
+      - STR_ZSRR_PIONEER_FEMALE
+      - STR_ZSRR_RED_OPS_MALE
+      - STR_ZSRR_RED_OPS_FEMALE
+      - STR_NATASHA_MOROZOVA
+  - name: STR_ZSRR_PIONEER_MALE
+    unlocks: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+  - name: STR_ZSRR_PIONEER_FEMALE
+    unlocks: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+  - name: STR_ZSRR_RED_OPS_MALE
+    unlocks: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+  - name: STR_ZSRR_RED_OPS_FEMALE
+    unlocks: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+  - name: STR_NATASHA_MOROZOVA
+    unlocks: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+  - name: STR_JUMPSUIT
+    dependencies: !add
+      - STR_CAMO_ENEMY_RESEARCHED
+# END Camouflaged Enemy Researched
+
+# BEGIN Advanced Optics research tree changes
+  - name: STR_ANY_CULT_OPERATIONS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHURCH_OF_DAGON_OPERATIONS
+      - STR_EXALT_OPERATIONS
+      - STR_ZSRR_OPERATIONS
+      - STR_BLACK_LOTUS_OPERATIONS
+
+  - name: STR_CHURCH_OF_DAGON_OPERATIONS
+    unlocks:
+      - STR_ANY_CULT_OPERATIONS
+
+  - name: STR_EXALT_OPERATIONS
+    unlocks:
+      - STR_ANY_CULT_OPERATIONS
+
+  - name: STR_ZSRR_OPERATIONS
+    unlocks:
+      - STR_ANY_CULT_OPERATIONS
+
+  - name: STR_BLACK_LOTUS_OPERATIONS
+    unlocks:
+      - STR_ANY_CULT_OPERATIONS
+
+  - name: STR_SPEC_OPS_RESEARCH #unlocks Spec-Ops Suit
+    cost: 50
+    points: 20
+    dependencies: # !add
+#      - STR_CROWD_CONTROL_GEAR
+# Scav
+      - STR_ADVANCED_OPTICS
+      - STR_NIGHTOPS_ARMOR #added
+      - STR_XCOM_LIQUIDATOR_ARMOR
+#      - STR_NIGHTOPS
+# Scav
+      - STR_MILESTONE_2_SUMMARY
+      - STR_ANY_CULT_OPERATIONS
+
+# remove Advanced Optics from getOneFree
+  - name: STR_SECRET_FILES_1
+    getOneFree: !remove
+      - STR_ADVANCED_OPTICS
+
+# Optics and Advanced Optics tech tree change
+  - name: STR_OPTICS
+    cost: 20
+    points: 20
+    dependencies:
+      - STR_WORKSHOP
+    listOrder: 1399
+
+  - name: STR_ADVANCED_OPTICS
+    cost: 50
+    dependencies: !remove
+      - STR_NIGHTOPS_ARMOR
+      - STR_BIOEXO
+  - name: STR_ADVANCED_OPTICS
+    dependencies: !add
+      - STR_OPTICS
+      - STR_MILITARY_ENVOY_CONTACT
+
+  - name: STR_BIOEXO
+    dependencies: !add
+      - STR_ADVANCED_OPTICS
+    unlocks: !remove
+      - STR_ADVANCED_OPTICS
+
+  - name: STR_NIGHTOPS_ARMOR
+    dependencies: !add
+      - STR_ADVANCED_OPTICS
+      - STR_CAMO_ENEMY_RESEARCHED
+
+  - name: STR_NIGHTOPS_ARMOR
+    dependencies: !remove
+      - STR_ZSRR_PIONEER
+    unlocks: !remove
+      - STR_ADVANCED_OPTICS
+# END Advanced Optics research tree changes
+
+# BEGIN Civilian Self Defence
+  - name: STR_CIVILIAN_SELF_DEFENCE
+    cost: 5
+    points: 10
+    needItem: false
+    dependencies:
+      - STR_QUARTERMASTER_INTRODUCTION
+    listOrder: 300311
+
+  - name: STR_SWITCHBLADE
+    points: 2
+    dependencies:
+      - STR_CIVILIAN_SELF_DEFENCE
+    needItem: false
+
+  - delete: STR_FLASHLIGHT_BUY
+  - name: STR_FLASHLIGHT
+    dependencies:
+      - STR_CIVILIAN_SELF_DEFENCE
+    cost: 1
+    points: 2
+    needItem: false
+    listOrder: 46259
+
+  - delete: STR_PEPPER_SPRAY
+  - name: STR_PEPPER_SPRAY
+    cost: 1
+    points: 2
+    needItem: false
+    dependencies:
+      - STR_CIVILIAN_SELF_DEFENCE
+    listOrder: 45650
+
+  - name: STR_CIV_TASER
+    cost: 1
+    points: 2
+    needItem: false
+    dependencies:
+      - STR_CIVILIAN_SELF_DEFENCE
+    listOrder: 45651
+
+  - name: STR_MAID
+    getOneFree: !add
+      - STR_CIV_TASER
+      - STR_PEPPER_SPRAY
+  - name: STR_MALE_VIP
+    getOneFree: !add
+      - STR_CIV_TASER
+      - STR_PEPPER_SPRAY
+
+  - name: STR_MAID
+    getOneFree: !remove
+      - STR_FLASHLIGHT_BUY
+  - name: STR_MALE_VIP
+    getOneFree: !remove
+      - STR_FLASHLIGHT_BUY
+# END Civilian Self Defence
+
+# BEGIN Psi Shields
+  - name: STR_PSI_SHIELDS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_TROLLIUM
+
+  - name: STR_RED_SHIELD
+    getOneFree:
+      - STR_PSI_SHIELDS
+
+  - name: STR_GOLD_SHIELD
+    getOneFree:
+      - STR_PSI_SHIELDS
+
+  - name: STR_PURPLE_SHIELD
+    getOneFree:
+      - STR_PSI_SHIELDS
+
+  - name: STR_GREEN_SHIELD
+    getOneFree:
+      - STR_PSI_SHIELDS
+# END Psi Shields
+
+  - name: STR_SUV_NAME
+    cost: 10
+    points: 10
+    getOneFree:
+      - STR_SUV
+    dependencies:
+      - STR_PRIVATE_TRANSPORT
+      - STR_ANY_CULT_NETWORK
+      - STR_LOGISTICS
+  
+  - name: STR_SUV
+    cost: 5
+    points: 10
+    dependencies:
+    - STR_TROLLIUM

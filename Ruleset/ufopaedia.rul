@@ -1,0 +1,169 @@
+ufopaedia:
+# BEGIN Commander's Coat
+  - id: STR_LEATHER_COAT_UC
+    listOrder: 16710
+  - id: STR_LEATHER_COAT_H_UC
+    listOrder: 16711
+
+  - id: STR_COMMANDER_COAT_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_COMMANDER_COAT
+    text: STR_COMMANDER_COAT_UFOPEDIA
+    listOrder: 16712
+  - id: STR_COMMANDER_COAT_H_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_HYBRID_RECRUITMENT
+      - STR_COMMANDER_COAT
+    text: STR_COMMANDER_COAT_UFOPEDIA
+    listOrder: 16713
+# END Commander's Coat
+
+# BEGIN Bulletproof Commander's Coat
+  - id: STR_BULLETPROOF_COAT_UC
+    listOrder: 16720
+  - id: STR_BULLETPROOF_COAT_H_UC
+    listOrder: 16721
+
+  - id: STR_BULLETPROOF_COMMANDER_COAT_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_BULLETPROOF_COMMANDER_COAT
+    text: STR_BULLETPROOF_COMMANDER_COAT_UFOPEDIA
+    listOrder: 16722
+  - id: STR_BULLETPROOF_COMMANDER_COAT_H_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_HYBRID_RECRUITMENT
+      - STR_BULLETPROOF_COMMANDER_COAT
+    text: STR_BULLETPROOF_COMMANDER_COAT_UFOPEDIA
+    listOrder: 16723
+# END Bulletproof Commander's Coat
+
+# BEGIN Spec-Ops Suit
+#  - delete: STR_BLACKOPS_ARMOR_UC
+#  - delete: STR_BLACKOPS_ARMOR_H_UC
+# Scav
+
+  - id: STR_HAZMAT_ARMOR_UC
+    listOrder: 16796
+  - id: STR_HAZMAT_ARMOR_H_UC
+    listOrder: 16797
+
+  - id: STR_SPEC_OPS_ARMOR_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_SPEC_OPS_RESEARCH
+    listOrder: 16790
+    text: STR_SPEC_OPS_ARMOR_UFOPEDIA
+
+  - id: STR_SPEC_OPS_ARMOR_H_UC
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_HYBRID_RECRUITMENT
+      - STR_SPEC_OPS_RESEARCH
+    listOrder: 16791
+    text: STR_SPEC_OPS_ARMOR_UFOPEDIA
+# END Spec-Ops Suit
+
+# BEGIN Commendations
+  - id: STR_MEDAL_GRAVEKEEPER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MEDAL_GRAVEKEEPER_CPAL
+    text: STR_MEDAL_GRAVEKEEPER_UFOPEDIA
+    text_width: 158
+    listOrder: 360081
+
+  - id: STR_MEDAL_SOLO_MISSIONS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MEDAL_SOLO_MISSIONS_CPAL
+    text: STR_MEDAL_SOLO_MISSIONS_UFOPEDIA
+    text_width: 158
+    listOrder: 360096
+# END Commendations
+
+# research
+  - id: STR_OPTICS
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: UFOPEDIA_OPTICS_CPAL
+    text: STR_OPTICS_UFOPEDIA
+    text_width: 155
+    requires:
+      - STR_WORKSHOP
+    listOrder: 1399
+
+  - id: STR_MOTORCYCLE
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: MOTORCYCLE.SPK #change this
+    rect_stats:
+      x: 208
+      y: 135
+      width: 160
+      height: 56
+    rect_text:
+      x: 5
+      y: 140
+      width: 140
+      height: 160
+    text: STR_MOTORCYCLE_UFOPEDIA
+    requires:
+      - STR_PRIVATE_TRANSPORT
+    listOrder: 7294
+
+  - id: STR_SUV
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: JEEP_CPAL #change this
+    rect_stats:
+      x: 80
+      y: 130
+      width: 160
+      height: 56
+    rect_text:
+      x: 160
+      y: 10
+      width: 140
+      height: 160
+    text: STR_TEXT_SUV_PEDIA
+    requires:
+      - STR_SUV
+    listOrder: 7295
+
+  - id: STR_CIV_TASER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CIV_TASER_UFOPEDIA
+    dependencies:
+      - STR_CIVILIAN_SELF_DEFENCE
+    listOrder: 18791
+
+  - id: STR_CIVILIAN_SELF_DEFENCE
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_CIVILIAN_SELF_DEFENCE_UFOPEDIA
+    requires:
+      - STR_CIVILIAN_SELF_DEFENCE
+    listOrder: 300309
+
+  - id: STR_PSI_SHIELDS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_PSI_SHIELDS_CPAL
+    text: STR_PSI_SHIELDS_TEXT
+    requires:
+      - STR_PSI_SHIELDS
+    text_width: 290
+    listOrder: 104999

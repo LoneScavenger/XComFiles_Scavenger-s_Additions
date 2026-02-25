@@ -1,0 +1,144 @@
+extraSprites:
+  - type: CustomArmorPreviews
+    width: 1104
+    height: 60
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/GUI_2/GUI_Soldiers.png
+
+  - type: BIGOBS.PCK
+    files:
+      258: Resources/Weapons/bigob_CivTaser.png
+      260: Resources/Armors/commCoat/bigob_coat_corpse.png
+      262: Resources/Armors/commCoat/bigob_coat_corpse2.png
+      264: Resources/Armors/specOps/bigob_spec_ops_corpse.png
+      296: Resources/NPCs/Quartermaster_portrait.png
+      300: Resources/Medicals/bigob_smp.png
+
+  - type: FLOOROB.PCK
+    files:
+      227: Resources/Weapons/floorob_CivTaser.png
+      261: Resources/Armors/commCoat/floorob_coat_corpse.png
+      263: Resources/Armors/commCoat/floorob_coat_corpse2.png
+      265: Resources/Armors/specOps/floorob_spec_ops_corpse.png
+      270: Resources/Medicals/floorob_smp.png
+
+# BEGIN paperdolls
+  - type: COAT_BLUE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/commCoat/CoatBlue.png
+
+  - type: COAT_BLUE_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/commCoat/CoatBlue2.png
+
+  - type: COAT_BLUE_H.PCK # hybrids have only one sprite
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/commCoat/CoatBlueH.png
+
+  - type: SPEC_OPS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/specOps/SpecOps.png
+# END paperdolls
+
+# BEGIN Crafts
+  - type: INTICON.PCK
+    files:
+      901: Resources/Inticon/Motorcycle_minimised.png
+      902: Resources/Inticon/JEEP_minimised.png
+      912: Resources/Inticon/Motorcycle_dogfight.png
+      913: Resources/Inticon/JEEP_dogfight.png
+
+  - type: BASEBITS.PCK
+    files:
+      934: Resources/Basebits/Motorcycle_base_sync.png # adjusted
+      935: Resources/Basebits/JEEP_base_sync.png # adjusted for Facility Expansion Mod
+# END Crafts
+
+# BEGIN ufopedia
+  - type: UFOPEDIA_OPTICS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopedia/Optics_CPAL.png
+
+  - type: UFOPEDIA_IMG_PSI_SHIELDS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopedia/psi_shield_CPAL.png
+
+  - type: JEEP_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CRAFT_SUV_CPAL.png
+
+  - type: MOTORCYCLE.SPK # don't know what it does, but works, I'm not touching it
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Motorcycle_ufopedia.png
+
+  - type: MEDAL_GRAVEKEEPER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/MEDAL_GRAVEKEEPER_CPAL.png
+
+  - type: MEDAL_SOLO_MISSIONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/MEDAL_SOLITARY_CPAL.png
+# END ufopedia
+
+# BEGIN Backgrounds
+  - type: NEW_RAT_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/FAT_RAT.png
+# END Backgrounds
+
+# BEGIN typeSingle
+  - typeSingle: HUMAN_AGENT__7__BLUE_COAT
+    fileSingle: Resources/Armors/commCoat/BLUE_COAT.png
+
+  - typeSingle: HYBRID_AGENT__7__BLUE_COAT
+    fileSingle: Resources/Armors/commCoat/BLUE_COAT.png
+
+  - typeSingle: HUMAN_AGENT__7__BLUE_COAT_2
+    fileSingle: Resources/Armors/commCoat/BLUE_COAT2.png
+
+  - typeSingle: HYBRID_AGENT__7__BLUE_COAT_2
+    fileSingle: Resources/Armors/commCoat/BLUE_COAT2.png
+
+  - typeSingle: SPEC_OPS
+    fileSingle: Resources/Armors/specOps/SPEC_OPS.png
+# END typeSingle
+
