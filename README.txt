@@ -16,7 +16,7 @@ In case players don't want the ton of additional weapons from Arsenal Additions 
 or in my sync mod, but still like my custom additions - this mod is exactly for them.
 
  - Is this submod on github?
-Nope, not yet.
+https://github.com/LoneScavenger/X-Com-File-Scavenger-s-Additions
 
  - Can I donate to you?
 Not yet, but would be great and I'd be very thankful for any donation.
@@ -64,9 +64,10 @@ Research
  removed EXALT Liquidator from Advanced Optics' dependencies
 
 1.0.2
+added submod to gitHub
 Research
  changed displayed research name for SUV
- fixed Bulletproof Commander's Coat crash
+ fixed Bulletproof Commander's Coat fatal crash
 New Item
  Storm Medical Pack - permanent medi-kit, but quite costly
 
