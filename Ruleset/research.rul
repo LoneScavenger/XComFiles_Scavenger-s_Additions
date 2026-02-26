@@ -181,6 +181,17 @@ research:
       - STR_CIVILIAN_SELF_DEFENCE
     listOrder: 45651
 
+  - name: STR_STORM_MED
+    requiresBaseFunc: [BIOLAB]
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_BIG_HEALING_SPRAY
+      - STR_HEALING_PACK
+      - STR_MUTANT_BLOOD_PLASMA
+      - STR_NOBELON
+    listOrder: 48076
+
   - name: STR_MAID
     getOneFree: !add
       - STR_CIV_TASER

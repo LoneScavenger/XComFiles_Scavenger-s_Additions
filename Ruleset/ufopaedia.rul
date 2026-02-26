@@ -46,8 +46,8 @@ ufopaedia:
 # END Bulletproof Commander's Coat
 
 # BEGIN Spec-Ops Suit
-#  - delete: STR_BLACKOPS_ARMOR_UC
-#  - delete: STR_BLACKOPS_ARMOR_H_UC
+  - delete: STR_BLACKOPS_ARMOR_UC
+  - delete: STR_BLACKOPS_ARMOR_H_UC
 # Scav
 
   - id: STR_HAZMAT_ARMOR_UC
@@ -157,6 +157,14 @@ ufopaedia:
     requires:
       - STR_CIVILIAN_SELF_DEFENCE
     listOrder: 300309
+
+  - id: STR_STORM_MED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_STORM_MED
+    text: STR_STORM_MED_UFOPEDIA
+    listOrder: 48180
 
   - id: STR_PSI_SHIELDS
     type_id: 7

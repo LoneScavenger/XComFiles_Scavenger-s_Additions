@@ -195,38 +195,4 @@ items:
     experienceTrainingMode: 19
     listOrder: 48190
 # END medicals
-manufacture:
-  - name: STR_STORM_MED
-    category: STR_EQUIPMENT
-    requires:
-      - STR_STORM_MED
-    space: 5
-    time: 450
-    cost: 30000
-    requiresBaseFunc: [WORKS, BIOLAB]
-    requiredItems:
-      STR_MUTANT_BLOOD_PLASMA: 1
-      STR_NOBELON: 1
-      STR_STORM: 1
-    listOrder: 48180
 
-research:
-  - name: STR_STORM_MED
-    requiresBaseFunc: [BIOLAB]
-    cost: 100
-    points: 10
-    dependencies:
-      - STR_BIG_HEALING_SPRAY
-      - STR_HEALING_PACK
-      - STR_MUTANT_BLOOD_PLASMA
-      - STR_NOBELON
-    listOrder: 48076
-
-ufopaedia:
-  - id: STR_STORM_MED
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_STORM_MED
-    text: STR_STORM_MED_UFOPEDIA
-    listOrder: 48180
