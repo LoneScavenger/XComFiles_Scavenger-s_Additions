@@ -6,6 +6,6 @@ version: 1.0.2
 description: "New items, craft, armours and some QoL changes. This mod is mutually exclusive with my sync mod."
 author: Scavenger
 reservedSpace: 1
-id: x-com-files-scav-additions 
+id: x-com-files-scav-additions  
 master: x-com-files
 
