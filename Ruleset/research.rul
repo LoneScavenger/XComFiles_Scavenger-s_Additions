@@ -23,7 +23,7 @@ research:
     spawnedEvent: STR_BULLETPROOF_COMMANDER_COAT_MESSAGE
     dependencies:
       - STR_PERSONAL_PROTECTION
-#      - STR_BULLETPROOF_COAT_DESIGN
+      - STR_BULLETPROOF_COAT_DESIGN
       - STR_COMMANDER_COAT
 # END Commander's Coat and Bulletproof Commander's Coat
 
