@@ -21,7 +21,6 @@ crafts:
     costBuy: 7000
     costRent: 1000
     costSell: 7000
-    costSell: 0
     refuelRate: 9999
     repairRate: 1
     transferTime: 1
