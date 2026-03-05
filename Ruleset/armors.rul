@@ -1083,9 +1083,6 @@ armors:
 # END Bulletproof Commander's Coat
 
 # BEGIN spec-ops suit
-#  - delete: STR_BLACKOPS_ARMOR_UC
-#  - delete: STR_BLACKOPS_ARMOR_H_UC
-# Scav
 
   - &ANCHOR_SPEC_OPS
     type: STR_SPEC_OPS_ARMOR_UC

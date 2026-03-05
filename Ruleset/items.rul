@@ -26,8 +26,6 @@ items:
 # END Commander's Coat and Bulletproof Commander's Coat
 
 # BEGIN Spec-Ops Suit
-  - delete: STR_BLACKOPS_NIGHTVISION
-
   - type: STR_SPEC_OPS_ARMOR
     categories: [STR_HUMAN_TECH, STR_OUTFITS]
     requiresBuy:

@@ -71,6 +71,7 @@ Research
 New Item
  Storm Medical Pack - permanent medi-kit, but quite costly
 
-..
+1.0.3
+removed few lines restoring compatibility with Arsenal Additions mod
 
 
