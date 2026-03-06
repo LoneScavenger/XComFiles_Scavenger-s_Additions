@@ -1,5 +1,5 @@
 # XcomFiles Submod with custom stuff
-   
+
     Submod for Solarius Scorch's X-COM Files mod
     By Scavenger
 
@@ -27,7 +27,6 @@ More stuff will come as actually make progress in-game.
 
 - Is this mod compatible with other submods?
 It is just plain resources, so it should be.
-One that it is for sure not compatible with is my Natasha and Arsenal Additions Sync mod, because it already features all these additions.
 
 ============================================================
 ============================================================
