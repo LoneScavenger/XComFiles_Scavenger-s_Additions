@@ -130,6 +130,9 @@ items:
       - STR_FLASHLIGHT
       - STR_CIVILIAN_SELF_DEFENCE
 
+  - update: STR_TRAUMA_PACK
+    armor: 60
+
   - update: STR_PEPPER_SPRAY
     requiresBuy:
       - STR_PEPPER_SPRAY
@@ -158,6 +161,7 @@ items:
     clipSize: 3
     arcingShot: true
     maxRange: 3
+    attraction: 15
     experienceTrainingMode: 21
     listOrder: 45650
 
@@ -189,7 +193,6 @@ items:
       energy: 3
       time: 25
     flatRate: true
-    attraction: 10
     experienceTrainingMode: 19
     listOrder: 48190
 # END medicals
